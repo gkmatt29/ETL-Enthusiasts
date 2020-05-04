@@ -22,10 +22,9 @@ CREATE TABLE diversity (
  );
  
  
- 
 CREATE TABLE MedianIncome(
-  id SERIAL PRIMARY KEY,
-  MedianHouseHoldIncome float,
+  id VARCHAR(100),
+  MedianHouseHoldIncome VARCHAR(10),
   StateCode INT,
-  CountryCode INT);
+  CountyCode INT);
   
